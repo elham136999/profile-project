@@ -1,0 +1,16 @@
+.section {
+  width: 20vw;
+  height: 90vh;
+  background-color: white;
+}
+.menu-items {
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+
+  h4 {
+    padding-right: 0.75rem;
+  }
+}
