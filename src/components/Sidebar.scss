@@ -1,16 +1,58 @@
+$color-white: rgb(255, 255, 255);
+
+$color-blue: rgb(46, 145, 238);
+
+$color-Purple: rgb(219, 10, 219);
+$color-Purple-light: rgb(252, 92, 252);
+$color-Purple-dark: rgb(126, 4, 182);
+$color-pink: rgb(250, 161, 176);
+
 .section {
   width: 20vw;
   height: 90vh;
-  background-color: white;
+  background-color: $color-white;
+
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+
+  .logo {
+    font-size: 7rem;
+    color: $color-Purple;
+    text-align: center;
+  }
 }
 .menu-items {
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   display: flex;
   flex-direction: row;
   margin-bottom: 1rem;
-  padding-bottom: 1.5rem;
-
+  padding: 0.5rem;
   h4 {
     padding-right: 0.75rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .blue {
+    color: $color-blue;
+  }
+  .Purple {
+    color: $color-Purple;
+  }
+  .Purple-dark {
+    color: $color-Purple-dark;
+  }
+  .pink {
+    color: $color-pink;
+  }
+}
+a {
+  text-decoration: none;
+  color: rgb(83, 82, 82);
+
+  :hover {
+    background-color: $color-Purple;
+    transition: all 1s;
+    border-radius: 20%;
   }
 }

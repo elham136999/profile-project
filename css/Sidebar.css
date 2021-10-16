@@ -15,4 +15,20 @@
 .menu-items h4 {
   padding-right: 0.75rem;
 }
+
+.menu-items h3.red {
+  color: red;
+}
+
+.menu-items .green {
+  color: #0adb0a;
+}
+
+.menu-items .yellow {
+  color: yellow;
+}
+
+.menu-items .pink {
+  color: pink;
+}
 /*# sourceMappingURL=Sidebar.css.map */

@@ -1,7 +1,7 @@
 import React from "react";
 
 function Users() {
-  return <div>users component</div>;
+  return <div></div>;
 }
 
 export default Users;
