@@ -1,8 +1,52 @@
+$color-white: white;
+$color-green: rgb(148, 240, 12);
+$color-gray: rgb(175, 173, 173);
+$color-black: #000;
+@mixin disply {
+  display: flex;
+}
+
 .users {
   width: 70vw;
   height: 76vh;
-  background-color: white;
+  background-color: $color-white;
   position: absolute;
   top: 7rem;
   right: 15rem;
+
+  .item {
+    min-width: 12rem;
+    height: 12rem;
+    background-color: $color-white;
+    margin: 1rem 1rem;
+
+    box-shadow: 0rem 0rem 0.5rem $color-gray;
+
+    p {
+      text-align: center;
+      color: $color-gray;
+      margin-bottom: 0.5rem;
+    }
+    .name {
+      color: $color-black;
+      font-weight: bold;
+    }
+    .time {
+      @include disply();
+      justify-content: center;
+      align-items: center;
+    }
+    .date {
+      margin-right: 0.8rem;
+    }
+  }
+  .disply {
+    @include disply();
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    :hover {
+      border-top: 5px solid $color-green;
+    }
+  }
 }
