@@ -1,1 +1,49 @@
-/* No CSS *//*# sourceMappingURL=Users.css.map */
+.users {
+  width: 70vw;
+  height: 76vh;
+  background-color: white;
+  position: absolute;
+  top: 7rem;
+  right: 15rem;
+}
+
+.users .item {
+  min-width: 12rem;
+  height: 12rem;
+  background-color: white;
+  margin: 1rem 1rem;
+  box-shadow: 0rem 0rem 0.5rem #afadad;
+}
+
+.users .item p {
+  text-align: center;
+  color: #afadad;
+  margin-bottom: 0.5rem;
+}
+
+.users .item .name {
+  color: #000;
+  font-weight: bold;
+}
+
+.users .item .time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.users .item .date {
+  margin-right: 0.8rem;
+}
+
+.users .disply {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.users .disply :hover {
+  border-top: 5px solid #94f00c;
+}
+/*# sourceMappingURL=Users.css.map */

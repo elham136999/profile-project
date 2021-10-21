@@ -2,33 +2,56 @@
   width: 20vw;
   height: 90vh;
   background-color: white;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.section .logo {
+  font-size: 7rem;
+  color: #db0adb;
+  text-align: center;
 }
 
 .menu-items {
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   display: flex;
   flex-direction: row;
   margin-bottom: 1rem;
-  padding-bottom: 1.5rem;
+  padding: 0.5rem;
 }
 
 .menu-items h4 {
   padding-right: 0.75rem;
 }
 
-.menu-items h3.red {
-  color: red;
+.menu-items h3 {
+  font-size: 1.5rem;
 }
 
-.menu-items .green {
-  color: #0adb0a;
+.menu-items .blue {
+  color: #2e91ee;
 }
 
-.menu-items .yellow {
-  color: yellow;
+.menu-items .Purple {
+  color: #db0adb;
+}
+
+.menu-items .Purple-dark {
+  color: #7e04b6;
 }
 
 .menu-items .pink {
-  color: pink;
+  color: #faa1b0;
+}
+
+a {
+  text-decoration: none;
+  color: #535252;
+}
+
+a :hover {
+  background-color: #db0adb;
+  transition: all 1s;
+  border-radius: 20%;
 }
 /*# sourceMappingURL=Sidebar.css.map */

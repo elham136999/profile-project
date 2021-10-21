@@ -17,7 +17,7 @@ function Users() {
             const { id, name, location, time, date, img } = item;
             return (
               <div key={id} className='item'>
-                <img src={img} alt='' />
+                <img src='public/assets/1.jpg' alt='' />
                 <p className='name'>{name}</p>
                 <p>
                   <VscLocation />

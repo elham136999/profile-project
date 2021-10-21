@@ -5,6 +5,7 @@ export default [
     location: "تهران",
     time: "05:23",
     date: "5 آبان",
+    img: "./public/assets/1.jpg",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export default [
     location: "تهران",
     time: "06:23",
     date: "11 مهر",
+    img: "./public/assets/2.jpg",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export default [
     location: "اهواز",
     time: "05:23",
     date: "5 دی",
+    img: "./public/assets/3.jpg",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export default [
     location: "تهران",
     time: "05:23",
     date: "5 آبان",
+    img: "./public/assets/1.jpg",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export default [
     location: "تهران",
     time: "06:23",
     date: "11 مهر",
+    img: "./public/assets/4.jpg",
   },
   {
     id: 6,
@@ -40,5 +45,6 @@ export default [
     location: "اهواز",
     time: "05:23",
     date: "5 دی",
+    img: "./public/assets/5.jpg",
   },
 ];

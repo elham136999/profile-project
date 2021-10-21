@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=Navbar.css.map */
+.navbar {
+  width: 70vw;
+  height: 12vh;
+  background-color: white;
+  position: absolute;
+  top: 1.5rem;
+  right: 15rem;
+}
+/*# sourceMappingURL=Navbar.css.map */
